@@ -862,3 +862,31 @@ textarea {
     padding-right: 18px;
   }
 }
+
+
+.continuum-media-card {
+  max-width: 420px;
+  width: 100%;
+}
+
+.continuum-video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #000;
+}
+
+.continuum-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.media-caption {
+  margin-top: 12px;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  opacity: 0.82;
+}
